@@ -1,17 +1,14 @@
 {
   "planodb": {
-    "assistencia_categoria_servico_tb": {
+    "categoria": {
         "pk": [
-            "categoria_servico_id"
+            "idCategoria"
         ],
-        "tabela_selecao": "assistencia_servico_tb",
-        "parametro_selecao": "categoria_servico_id",
-        "valor_selecao": "categoria_servico_id",
         "estrutura": [
             [
-                "categoria_servico_id",
+                "idCategoria",
                 "string",
-                "categoria_servico_id",
+                "idCategoria",
                 "int"
             ],
             [
@@ -52,7 +49,7 @@
             ]
         ]
     },
-    "assistencia_servico_tb": {
+    "contrato": {
       "pk": [
           "data_exportacao"
       ],
@@ -106,9 +103,9 @@
               "int"
           ],
           [
-              "categoria_servico_id",
+              "idCategoria",
               "string",
-              "categoria_servico_id",
+              "idCategoria",
               "int"
           ],
           [
