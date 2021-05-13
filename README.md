@@ -17,7 +17,7 @@ target_path = "aux/csv/{}/".format(table_name)
 
 ### Run on container
 -   Run the image canariodocker/pysparkproject using one volum to mapin your main file version and another to mapin your source folder as the exemple below
--   Now you are into the container at the python past. Execute the main file ```python3 main.py```
+-   Now you are into the container at the python folder. Execute the main file ```python3 main.py```
 
 ```bash
 docker run -it -v "/home/<<your_user>>/<<your_folderr>>/pySparkProject/main.py:/spark-3.1.1-bin-hadoop2.7/python/main.py" -v "/home//home/<<your_user>>/<<your_folderr>>/pySparkProject/aux/orc:/spark-3.1.1-bin-hadoop2.7/python/aux/orc" --name pyspark canariodocker/pysparkproject:latest /bin/bash
