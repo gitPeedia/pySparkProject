@@ -1,5 +1,4 @@
->Autor @Diego Ramos>
-_Autor Diego ®amos_
+>_Author Diego ®amos_
 
 ## sparkProject
 ### Projeto focado em manipular e converter arquivos usando spark
